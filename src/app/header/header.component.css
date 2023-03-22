@@ -1,7 +1,43 @@
 .header-container {
-    height: 50px;
-    background: rgb(19, 120, 191);
+    height: 100px;
+    background: #e9ebea;
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-container input {
+    width: 87%;
+    height: 50px;
+    margin: 25px 0 0 15px;
+    border: 1px solid #b9b9bf !important;
+    border-radius: 10px;
+    background: #e9ebea;
+    padding-left: 55px;
+}
+
+.bi-search::before {
+    content: "\f52a";
+    position: absolute;
+    left: 30px;
+    top: 37px;
+    font-size: 27px;
+    color: #b9b9bf;
+}
+
+.header-container span {
+    font-size: 30px;
+    color: #332e45;
+}
+
+.bi-bag-check::before {
+    content: "\f171";
+}
+
+.bi-chat-square-text::before {
+    content: "\f264";
+    padding: 0 25px;
 }

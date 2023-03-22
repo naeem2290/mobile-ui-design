@@ -1,0 +1,54 @@
+.container {
+    height: 403px;
+    background: #ffffff;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.slider-wrapper {
+    width: 100%;
+    /* background: red; */
+    background: #e9ebea;
+    height: 250px;
+}
+
+.categories-wrapper {
+    height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.categories-wrapper span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.bi-house-door-fill::before {
+    content: "\f422";
+    color: #23b396;
+}
+
+.categories-wrapper span span {
+    font-size: 25px;
+    color: #4e4d5c;
+    background: #f6f6f6;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+.categories-wrapper span a {
+    color: #c7c7c7;
+    font-size: 14px;
+}
+
+.categories-wrapper .non-active {
+    color: #6b6f85;
+    text-decoration: none;
+}
