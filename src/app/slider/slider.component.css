@@ -1,5 +1,5 @@
 .container {
-    height: 403px;
+    height: 305px;
     background: #ffffff;
     margin-top: 100px;
     padding: 0;
@@ -9,11 +9,11 @@
     width: 100%;
     /* background: red; */
     background: #e9ebea;
-    height: 250px;
+    height: 200px;
 }
 
 .categories-wrapper {
-    height: 152px;
+    height: 112px;
     display: flex;
     align-items: center;
     justify-content: space-between;

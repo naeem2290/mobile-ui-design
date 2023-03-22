@@ -1,5 +1,5 @@
 .container {
-    min-height: 473px;
+    min-height: 333px;
     background: #fafafb;
     margin-bottom: 60px;
 }
@@ -30,7 +30,7 @@
 
 .Products-wrapper {
     margin: 0 6px 0px 6px;
-    min-height: 473px;
+    min-height: 250px;
     justify-content: space-between;
 }
 

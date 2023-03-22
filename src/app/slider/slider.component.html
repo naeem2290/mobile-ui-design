@@ -1,5 +1,8 @@
 <div class="container">
-    <div class="slider-wrapper">slider</div>
+    <div class="slider-wrapper">
+        <carousel [images]="images" cellWidth="100%" [arrows]="false" [autoplay]="true" [autoplayInterval]="2000" [loop]="true" [dots]="true" [transitionDuration]="400">
+        </carousel>
+    </div>
     <div class="categories-wrapper">
         <span>
             <span class='bi bi-columns-gap'></span>
@@ -25,3 +28,5 @@
         </span>
     </div>
 </div>
+
+
