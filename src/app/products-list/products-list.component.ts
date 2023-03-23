@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-products-list',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductsListComponent implements OnInit {
 
   public showMore: boolean = false;
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit(): void {
   }
@@ -19,6 +20,10 @@ export class ProductsListComponent implements OnInit {
 
   getProductList(): Array<Number> {
     return this.showMore ? [0,1,2,3,4,5] : [0,1];
+  }
+
+  navigateToDetailPage() {
+    this.router.navigateByUrl('/product-detail');
   }
 
 }

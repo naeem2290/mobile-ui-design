@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SliderComponent } from './slider/slider.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
     HeaderComponent,
     FooterComponent,
     SliderComponent,
-    ProductsListComponent
+    ProductsListComponent,
+    ProductDetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

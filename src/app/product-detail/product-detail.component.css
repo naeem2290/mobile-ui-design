@@ -1,0 +1,88 @@
+.container {
+  background: #fffeff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.icon-wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin-right: 10px;
+}
+.header span {
+  font-size: 21px;
+  color: #433c4b;
+}
+.poster {
+  background: #f8f6f8;
+  height: 360px;
+  border-radius: 6px;
+  margin: 20px 5px;
+}
+.store-name {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 16px;
+  color: #b0adb3;
+}
+.store-name h4 {
+  color: #cbcacf;
+  font-size: 15px;
+}
+.title {
+  font-size: 22px;
+  color: #181429;
+}
+/* Rating Section */
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  color: #938f96;
+}
+.rating .star {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.rating span img {
+  width: 15px;
+  height: 15px;
+}
+.bi-dot::before {
+  content: "\f309";
+  line-height: 2.5 !important;
+}
+/* Description Section */
+.desc-section h4 {
+  color: #2d2837;
+}
+.desc-section ul {
+  color: #8e8b90;
+  font-size: 17px;
+}
+.desc-section ul li {
+  margin-bottom: 3px;
+}
+.desc-section p {
+  color: #8e8b90;
+  font-size: 17px;
+}
+.desc-section a {
+  display: flex;
+  gap: 7px;
+}
+.desc-section a p {
+  color: #18bb9a;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.desc-section a span {
+  color: #8e8b90;
+}
