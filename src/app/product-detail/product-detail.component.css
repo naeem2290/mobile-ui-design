@@ -1,10 +1,10 @@
 .container {
-  background: #fffeff;
+  background: #f9fafb;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
+  padding-top: 35px;
 }
 .icon-wrapper2 {
   display: flex;
@@ -58,9 +58,10 @@
   content: "\f309";
   line-height: 2.5 !important;
 }
-/* Description Section */
+/* Description Section CSS*/
 .desc-section h4 {
   color: #2d2837;
+  font-size: 18px;
 }
 .desc-section ul {
   color: #8e8b90;
@@ -85,4 +86,63 @@
 }
 .desc-section a span {
   color: #8e8b90;
+}
+
+/* Shopping Info Section CSS */
+
+.seller-info h4 {
+  color: #2d2837;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.shopping-info span {
+  display: flex;
+  gap: 10px;
+}
+
+.shopping-info .heading {
+  color: #8e8b95;
+}
+
+.shopping-info .pragh {
+  color: #2d2837;
+  font-weight: 500;
+}
+
+/* Seller Info Section CSS */
+
+.shopping-info h4 {
+  color: #2d2837;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.seller-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.seller-info img {
+  width: 100px;
+  height: 100px;
+}
+
+.seller-info span h4 {
+  font-size: 20px;
+}
+
+.seller-info span p {
+  font-size: 12px;
+  color: #8e8b95;
+}
+
+.seller-info span button {
+  font-size: 19px;
+  width: 155px;
+  height: 40px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #18bb9a;
+  color: #18bb9a;
 }
