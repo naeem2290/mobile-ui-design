@@ -1,32 +1,38 @@
 <div class="container">
-    <div class="slider-wrapper">
-        <carousel [images]="images" cellWidth="100%" [arrows]="false" [autoplay]="true" [autoplayInterval]="2000" [loop]="true" [dots]="true" [transitionDuration]="400">
-        </carousel>
-    </div>
-    <div class="categories-wrapper">
-        <span>
-            <span class='bi bi-columns-gap'></span>
-            <a>Category</a>
-        </span>
-        <span>
-            <!-- <span class='bi bi-card-checklist'></span> -->
-            <span class='fa fa-plane'></span>
-            <a class="non-active">Flight</a>
-        </span>
-        <span>
-            <span class="bi bi-clipboard-data"></span>
-            <a class="non-active">Bill</a>
-        </span>
-        <span>
-            <span class="bi bi-globe">
-            </span>
-            <a class="non-active">Data plan</a>
-        </span>
-        <span>
-            <span class='bi bi-currency-exchange'></span>
-            <a class="non-active">Top Up</a>
-        </span>
-    </div>
+  <div class="slider-wrapper">
+    <carousel
+      [images]="images"
+      cellWidth="100%"
+      [arrows]="false"
+      [autoplay]="true"
+      [autoplayInterval]="2000"
+      [loop]="true"
+      [dots]="true"
+      [transitionDuration]="400"
+    >
+    </carousel>
+  </div>
+  <div class="categories-wrapper">
+    <span (click)="navigateToTab()">
+      <span class="bi bi-columns-gap"></span>
+      <a>Category</a>
+    </span>
+    <span (click)="navigateToTab()">
+      <!-- <span class='bi bi-card-checklist'></span> -->
+      <span class="fa fa-plane"></span>
+      <a class="non-active">Flight</a>
+    </span>
+    <span (click)="navigateToTab()">
+      <span class="bi bi-clipboard-data"></span>
+      <a class="non-active">Bill</a>
+    </span>
+    <span (click)="navigateToTab()">
+      <span class="bi bi-globe"> </span>
+      <a class="non-active">Data plan</a>
+    </span>
+    <span (click)="navigateToTab()">
+      <span class="bi bi-currency-exchange"></span>
+      <a class="non-active">Top Up</a>
+    </span>
+  </div>
 </div>
-
-

@@ -146,3 +146,7 @@
   border: 1px solid #18bb9a;
   color: #18bb9a;
 }
+.ngx-gallery {
+  display: inline-block;
+  margin-bottom: 20px;
+}

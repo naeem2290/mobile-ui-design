@@ -7,9 +7,13 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SliderComponent } from './slider/slider.component';
 import { ProductsListComponent } from './products-list/products-list.component';
-import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { HomeComponent } from './home/home.component';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTabsModule } from '@angular/material/tabs';
+import { AllProductsComponent } from './all-products/all-products.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +23,18 @@ import { HomeComponent } from './home/home.component';
     SliderComponent,
     ProductsListComponent,
     ProductDetailComponent,
-    HomeComponent
+    HomeComponent,
+    AllProductsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    NgxGalleryModule,
+    MatTabsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

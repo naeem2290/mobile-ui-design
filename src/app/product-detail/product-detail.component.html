@@ -1,7 +1,7 @@
 <div class="container">
   <div class="header">
     <div class="icon-wrapper1">
-      <span class="bi bi-chevron-left"></span>
+      <span class="bi bi-chevron-left" (click)="back()"></span>
     </div>
     <div class="icon-wrapper2">
       <span class="bi bi-heart"></span>
@@ -9,7 +9,13 @@
       <span class="bi bi-bag-check"></span>
     </div>
   </div>
-  <div class="poster">image package</div>
+  <div class="poster">
+    <ngx-gallery
+      [options]="galleryOptions"
+      [images]="galleryImages"
+      class="ngx-gallery"
+    ></ngx-gallery>
+  </div>
   <div class="store-name">
     <span class="bi bi-bag-check"></span>
     <h4>Thirfting_Store</h4>
@@ -25,6 +31,14 @@
     <span class="bi bi-dot"></span>
     <span>2.9k + Sold</span>
   </div>
+
+  <div>
+    <mat-tab-group>
+      <mat-tab label="First"> First Content </mat-tab>
+      <mat-tab label="Second"> Second Content </mat-tab>
+    </mat-tab-group>
+  </div>
+
   <div class="desc-section">
     <h4>Description:</h4>
     <ul>
@@ -62,12 +76,14 @@
   <div class="seller-info">
     <h4>Seller Information:</h4>
     <div class="seller-wrapper">
-    <img src="assets/profile.png">
-    <span>
-      <h4>Thrifting_Store</h4>
-      <p>Active 5 Minutes ago | 96,7% Positive Feedback</p>
-      <button><span class='bi bi-archive'></span> Visit store</button>
-    </span>
-  </div>
+      <img src="assets/profile.png" />
+      <span>
+        <h4>Thrifting_Store</h4>
+        <p>Active 5 Minutes ago | 96,7% Positive Feedback</p>
+        <button><span class="bi bi-archive"></span> Visit store</button>
+      </span>
+    </div>
   </div>
 </div>
+
+<app-footer></app-footer>

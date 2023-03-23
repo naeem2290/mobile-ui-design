@@ -1,18 +1,24 @@
-<div class="footer-container">
-    <span>
-        <span class='bi bi-house-door-fill'></span>
-        <a>Home</a>
-    </span>
-    <span>
-        <span class='bi bi-card-checklist'></span>
-        <a class="non-active">Voucer</a>
-    </span>
-    <span>
-        <span class="bi bi-wallet2"></span>
-        <a class="non-active">Wallet</a>
-    </span>
-    <span>
-        <span class="bi bi-gear"></span>
-        <a class="non-active">Settings</a>
-    </span>
+<div *ngIf="!isDetailPage" class="footer-container">
+  <span (click)="navigateToHome()">
+    <span class="bi bi-house-door-fill"></span>
+    <a>Home</a>
+  </span>
+  <span>
+    <span class="bi bi-card-checklist"></span>
+    <a class="non-active">Voucer</a>
+  </span>
+  <span>
+    <span class="bi bi-wallet2"></span>
+    <a class="non-active">Wallet</a>
+  </span>
+  <span>
+    <span class="bi bi-gear"></span>
+    <a class="non-active">Settings</a>
+  </span>
+</div>
+
+<div *ngIf="isDetailPage" class="footer-container">
+  <span class="bi bi-gear">
+    <a class="non-active">Settings</a>
+  </span>
 </div>

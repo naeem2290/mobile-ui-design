@@ -1,8 +1,15 @@
-<div class="header-container">
-    <div>
-        <input type="text" placeholder="Search...">
-        <span class="bi bi-search"></span>
-    </div>
-    <span class="bi bi-bag-check"></span>
-    <span class="bi bi-chat-square-text"></span>
+<div *ngIf="!isDetailPage" class="header-container">
+  <div>
+    <input type="text" placeholder="Search..." />
+    <span class="bi bi-search"></span>
+  </div>
+  <span class="bi bi-bag-check"></span>
+  <span class="bi bi-chat-square-text"></span>
+</div>
+
+<div *ngIf="isDetailPage" class="header-container">
+  <div>
+    <input type="text" placeholder="Search..." />
+    <span class="bi bi-search"></span>
+  </div>
 </div>
