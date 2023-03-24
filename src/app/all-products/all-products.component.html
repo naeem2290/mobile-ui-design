@@ -1,7 +1,9 @@
 <div style="width: 100%">
   <app-header></app-header>
-
-  <app-products-list></app-products-list>
+  <app-products-list [padding]="'40px'"></app-products-list>
 
   <app-footer></app-footer>
+</div>
+<div id="loadingAnim" *ngIf="loader">
+  <img src="../../assets/loader.gif" alt="Loader Image">
 </div>

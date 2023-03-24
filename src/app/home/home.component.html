@@ -1,10 +1,14 @@
 <div style="width: 100%;">
     <app-header></app-header>
-  
+
     <app-slider></app-slider>
-  
-    <app-products-list></app-products-list>
-  
+
+    <app-products-list [padding]="'0px'"></app-products-list>
+
     <app-footer></app-footer>
-    
+
+</div>
+
+<div id="loadingAnim" *ngIf="loader">
+    <img src="../../assets/loader.gif" alt="Loader Image">
 </div>

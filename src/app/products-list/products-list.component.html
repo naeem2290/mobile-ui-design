@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" [ngStyle]="{'padding-top': padding}">
   <div class="heading-wrapper">
     <h2 class="heading">Best Sale Product</h2>
     <a *ngIf="!showMore" class="see-btn" (click)="clickOn('See more')"
@@ -33,4 +33,7 @@
       </div>
     </div>
   </div>
+</div>
+<div id="loadingAnim" *ngIf="loader">
+  <img src="../../assets/loader.gif" alt="Loader Image">
 </div>

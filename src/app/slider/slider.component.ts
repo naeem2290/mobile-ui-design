@@ -19,7 +19,8 @@ export class SliderComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  navigateToTab() {
+  navigateToTab(type: string) {
     this.router.navigateByUrl('/all-products-list');
+    localStorage.setItem('category', type);
   }
 }

@@ -15,8 +15,10 @@ export class ProductDetailComponent implements OnInit {
   public galleryOptions: NgxGalleryOptions[];
   public galleryImages: NgxGalleryImage[];
   constructor(public location: Location) {}
+  loader = true;
 
   ngOnInit(): void {
+    window.scroll(0,0);
     this.galleryOptions = [
       {
         width: '600px',
@@ -70,6 +72,11 @@ export class ProductDetailComponent implements OnInit {
         big: 'assets/shirt3.jpeg',
       },
     ];
+
+    setTimeout(()=>{                           // <<<---using ()=> syntax
+      this.loader = false;
+    }, 2000);
+
   }
 
   back() {

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+#loadingAnim {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 332323;
+}
+
+#loadingAnim>img {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+}

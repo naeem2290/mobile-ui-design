@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./all-products.component.css']
 })
 export class AllProductsComponent implements OnInit {
-
+  loader = true;
   constructor() { }
 
   ngOnInit(): void {
+    window.scroll(0,0);
+    setTimeout(()=>{
+      this.loader = false;
+    }, 2000);
   }
 
 }

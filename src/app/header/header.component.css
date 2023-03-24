@@ -1,6 +1,6 @@
 .header-container {
     height: 100px;
-    background: #e9ebea;
+    background: #fafafb;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,7 +16,7 @@
     margin: 0px 0 0 15px;
     border: 1px solid #b9b9bf !important;
     border-radius: 10px;
-    background: #e9ebea;
+    background: #fafafb;
     padding-left: 55px;
 }
 
@@ -41,4 +41,9 @@
 .bi-chat-square-text::before {
     content: "\f264";
     padding: 0 25px;
+    rotate: 180deg;
 }
+
+input:focus {
+    border-color: #b9b9bf !important;
+  }

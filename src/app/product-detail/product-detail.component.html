@@ -104,6 +104,8 @@
               </div>
             </div>
           </div>
+          <hr>
+          <app-products-list></app-products-list>
       </mat-tab>
       <mat-tab label="Reviews">
          <app-review></app-review>
@@ -122,6 +124,10 @@
       <button class="buy-btn">Buy Now</button>
     </span>
   </div>
+</div>
+
+<div id="loadingAnim" *ngIf="loader">
+  <img src="../../assets/loader.gif" alt="Loader Image">
 </div>
 
 <!-- <app-price-footer></app-price-footer> -->
