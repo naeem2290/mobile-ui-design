@@ -69,11 +69,6 @@ export class ProductDetailComponent implements OnInit {
         medium: 'assets/shirt3.jpeg',
         big: 'assets/shirt3.jpeg',
       },
-      {
-        small: 'assets/shirt.jpg',
-        medium: 'assets/shirt.jpg',
-        big: 'assets/shirt.jpg',
-      },
     ];
   }
 

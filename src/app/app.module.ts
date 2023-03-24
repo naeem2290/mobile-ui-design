@@ -14,6 +14,8 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
 import { AllProductsComponent } from './all-products/all-products.component';
+import { ReviewComponent } from './review/review.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { AllProductsComponent } from './all-products/all-products.component';
     ProductDetailComponent,
     HomeComponent,
     AllProductsComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,7 @@ import { AllProductsComponent } from './all-products/all-products.component';
     NgxGalleryModule,
     MatTabsModule,
     BrowserAnimationsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

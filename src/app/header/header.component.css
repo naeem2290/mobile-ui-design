@@ -5,7 +5,7 @@
     top: 0;
     width: 100%;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     z-index: 10001;
 }
@@ -13,7 +13,7 @@
 .header-container input {
     width: 87%;
     height: 50px;
-    margin: 25px 0 0 15px;
+    margin: 0px 0 0 15px;
     border: 1px solid #b9b9bf !important;
     border-radius: 10px;
     background: #e9ebea;
