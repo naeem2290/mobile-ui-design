@@ -33,82 +33,135 @@
   </div>
 
   <div>
-    <mat-tab-group >
+    <mat-tab-group>
       <mat-tab label="About Item">
-          <div class="desc-section">
-            <h4>Description:</h4>
-            <ul>
-              <li>
-                Long-sleeve dress shirt in classic fit featuring button-down collar
-              </li>
-              <li>Patch Pocket on Left Chest</li>
-              <li>Durable Combination Cotton Fabric</li>
-              <li>Combination and quality dress shirt</li>
-              <li>Go To Classic button down shirt for all special occasions</li>
-            </ul>
-            <p>Chat us if there is anything you need to ask about the product :)</p>
-            <a>
-              <p>See less</p>
-              <span class="bi bi-chevron-up"></span>
-            </a>
+        <div class="desc-section">
+          <h4>Description:</h4>
+          <ul>
+            <li>
+              Long-sleeve dress shirt in classic fit featuring button-down
+              collar
+            </li>
+            <li>Patch Pocket on Left Chest</li>
+            <li>Durable Combination Cotton Fabric</li>
+            <li>Combination and quality dress shirt</li>
+            <li>Go To Classic button down shirt for all special occasions</li>
+          </ul>
+          <p>
+            Chat us if there is anything you need to ask about the product :)
+          </p>
+          <a>
+            <p>See less</p>
+            <span class="bi bi-chevron-up"></span>
+          </a>
+        </div>
+        <hr />
+        <div class="shopping-info">
+          <h4>Shopping Information:</h4>
+          <span>
+            <p class="heading">Delivery:</p>
+            <p class="pragh">Shipping from Jakarta, Indonesia</p>
+          </span>
+          <span>
+            <p class="heading">Shipping:</p>
+            <p class="pragh">FREE International Shipping</p>
+          </span>
+          <span>
+            <p class="heading">Arrive:</p>
+            <p class="pragh">Estimated arrival on 25-27 Oct 2023</p>
+          </span>
+        </div>
+        <hr />
+        <div class="seller-info">
+          <h4>Seller Information:</h4>
+          <div class="seller-wrapper">
+            <img src="assets/profile.png" />
+            <span>
+              <h4>Thrifting_Store</h4>
+              <p>Active 5 Minutes ago | 96,7% Positive Feedback</p>
+              <button><span class="bi bi-archive"></span> Visit store</button>
+            </span>
           </div>
-          <hr />
-          <div class="shopping-info">
-            <h4>Shopping Information:</h4>
-            <span>
-              <p class="heading">Delivery:</p>
-              <p class="pragh">Shipping from Jakarta, Indonesia</p>
-            </span>
-            <span>
-              <p class="heading">Shipping:</p>
-              <p class="pragh">FREE International Shipping</p>
-            </span>
-            <span>
-              <p class="heading">Arrive:</p>
-              <p class="pragh">Estimated arrival on 25-27 Oct 2023</p>
-            </span>
-          </div>
-          <hr />
-          <div class="seller-info">
-            <h4>Seller Information:</h4>
-            <div class="seller-wrapper">
-              <img src="assets/profile.png" />
+        </div>
+        <hr />
+        <div class="review-rating">
+          <h4>Reviews & Ratings</h4>
+          <div class="review-wrapper">
+            <div class="left-side">
+              <h4>
+                4.9
+                <p>/ 5.0</p>
+              </h4>
               <span>
-                <h4>Thrifting_Store</h4>
-                <p>Active 5 Minutes ago | 96,7% Positive Feedback</p>
-                <button><span class="bi bi-archive"></span> Visit store</button>
+                <img src="assets/star.png" />
+                <img src="assets/star.png" />
+                <img src="assets/star.png" />
+                <img src="assets/star.png" />
+                <img src="assets/star.png" />
               </span>
+              <p>2.3k+ Reviews</p>
+            </div>
+            <div class="right-side">
+              <span
+                ><img src="assets/star.png" />
+                <h5>5</h5>
+                <p>
+                  <ngb-progressbar
+                    type="success"
+                    [value]="80"
+                  ></ngb-progressbar>
+                </p>
+                <h4>1.5k</h4></span
+              >
+              <span
+                ><img src="assets/star.png" />
+                <h5>4</h5>
+                <p>
+                  <ngb-progressbar
+                    type="success"
+                    [value]="40"
+                  ></ngb-progressbar>
+                </p>
+                <h4>710</h4></span
+              >
+              <span
+                ><img src="assets/star.png" />
+                <h5>3</h5>
+                <p>
+                  <ngb-progressbar
+                    type="success"
+                    [value]="20"
+                  ></ngb-progressbar>
+                </p>
+                <h4>140</h4></span
+              >
+              <span
+                ><img src="assets/star.png" />
+                <h5>2</h5>
+                <p>
+                  <ngb-progressbar
+                    type="success"
+                    [value]="10"
+                  ></ngb-progressbar>
+                </p>
+                <h4>10</h4></span
+              >
+              <span
+                ><img src="assets/star.png" />
+                <h5>1</h5>
+                <p>
+                  <ngb-progressbar type="success" [value]="5"></ngb-progressbar>
+                </p>
+                <h4>4</h4></span
+              >
             </div>
           </div>
-          <hr />
-          <div class="review-rating">
-            <h4>Reviews & Ratings</h4>
-            <div class="review-wrapper">
-              <div class="left-side">
-                <h4>4.9 <p>/ 5.0</p></h4>
-                <span>
-                  <img src="assets/star.png" />
-                  <img src="assets/star.png" />
-                  <img src="assets/star.png" />
-                  <img src="assets/star.png" />
-                  <img src="assets/star.png" />
-                </span>
-                <p>2.3k+ Reviews</p>
-              </div>
-              <div class="right-side">
-                <span><img src="assets/star.png" /><h5>5</h5><p><ngb-progressbar type="success" [value]="80"></ngb-progressbar></p><h4>1.5k</h4></span>
-                <span><img src="assets/star.png" /><h5>4</h5><p><ngb-progressbar type="success" [value]="40"></ngb-progressbar></p><h4>710</h4></span>
-                <span><img src="assets/star.png" /><h5>3</h5><p><ngb-progressbar type="success" [value]="20"></ngb-progressbar></p><h4>140</h4></span>
-                <span><img src="assets/star.png" /><h5>2</h5><p><ngb-progressbar type="success" [value]="10"></ngb-progressbar></p><h4>10</h4></span>
-                <span><img src="assets/star.png" /><h5>1</h5><p><ngb-progressbar type="success" [value]="5"></ngb-progressbar></p><h4>4</h4></span>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <app-products-list></app-products-list>
+        </div>
+        <hr />
+        <app-products-list [padding]="'0px'"></app-products-list>
       </mat-tab>
       <mat-tab label="Reviews">
-         <app-review></app-review>
+        <app-review></app-review>
       </mat-tab>
     </mat-tab-group>
   </div>
@@ -127,7 +180,7 @@
 </div>
 
 <div id="loadingAnim" *ngIf="loader">
-  <img src="../../assets/loader.gif" alt="Loader Image">
+  <img src="../../assets/loader.gif" alt="Loader Image" />
 </div>
 
 <!-- <app-price-footer></app-price-footer> -->
