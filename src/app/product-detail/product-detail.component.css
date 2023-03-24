@@ -290,3 +290,29 @@
 ::ng-deep >>> .mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
   display: none !important;
 }
+
+::ng-deep .mat-tab-header-pagination {
+  display: none !important;
+}
+
+::ng-deep >>> .mat-tab-label-active{
+  border-bottom: 3px solid #18bb9a;
+  color: #18bb9a;
+  opacity: 1 !important;
+}
+
+::ng-deep .mat-tab-labels {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+::ng-deep >>> .mat-tab-label-container {
+  display: flex;
+  overflow: hidden;
+  z-index: 1;
+  overflow-x: hidden !important;
+}
+
+::ng-deep >>> .mat-tab-list {
+  width: 100%;
+}
