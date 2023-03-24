@@ -44,6 +44,7 @@
     rotate: 180deg;
 }
 
-input:focus {
-    border-color: #b9b9bf !important;
+input[type=text]:focus {
+    border: 1.5px solid #868690 !important;
+    outline: none;
   }
