@@ -8,11 +8,11 @@ import { Router } from '@angular/router';
 })
 export class SliderComponent implements OnInit {
   images = [
-    { path: '../../assets/shirt.jpg' },
-    { path: '../../assets/offer.jpg' },
-    { path: '../../assets/cosmetic.png' },
-    { path: '../../assets/offer2.jpg' },
-    { path: '../../assets/shirt2.jpg' }
+    { path: 'assets/shirt.jpg' },
+    { path: 'assets/offer.jpg' },
+    { path: 'assets/cosmetic.png' },
+    { path: 'assets/offer2.jpg' },
+    { path: 'assets/shirt2.jpg' }
   ];
 
   constructor(private router: Router) {}
